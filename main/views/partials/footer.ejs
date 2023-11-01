@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+<style>
+    h1{
+        font-size: xx-large;
+        font-weight:bolder;
+        position: absolute;
+        margin-top: auto;
+        color: blue;
+    }
+
+    p{
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: blueviolet;
+
+    }
+    .container{
+        background-color: aqua;
+    }
+    .pills{
+        font-size: medium;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+    h2{
+        font-size: small;
+        font-style: oblique;
+        color: darkblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <%= include('./partials/header'); %>
+    </header>
+
+    <h1>MONICA'S TODO APP</h1>
+  
+  <div class="container">
+    <h1>MONICA'S TODO APP</h1>
+    <p><h2>.....Your SURE personal todo app</p></h2>                  
+    <ul class="pills" role="tablist">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="\signup.html" target="_blank">SIGN UP</a></li>
+      <li><a href="\login.html" target="_blank">LOG IN</a></li>
+      <li><a href="#">LOG OUT</li>        
+    </ul>
+  </div>
+  <br><br><h1>Home</h1>
+  <br><h2>Best to-do list app for people who forget to use to-do apps.</h2>
+</body>
+</html>
